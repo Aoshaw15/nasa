@@ -1,0 +1,50 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-top:black solid 3px;
+  border-bottom: black solid 3px;
+
+}
+
+iframe{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height:auto;
+
+}
+
+div{
+  background: rgb(41, 49, 126);
+  border-left: black solid 2px  ;
+  border-right: black solid 2px; 
+
+}
+
+p{
+  font-size: 4em;
+}
+
+h4{
+  font-size: 2em;
+  max-width: 80%;
+  padding-bottom: 2em;
+  margin-left: 100px;
+ font-family: erif;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
